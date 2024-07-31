@@ -370,3 +370,7 @@ $(function () {
 
 
 });
+
+function makeCall() {
+    window.location.href = "tel:+94773434633";
+}
