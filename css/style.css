@@ -1154,9 +1154,7 @@ nav.main-menu {
 	vertical-align: middle;
 }
 
-.main-menu ul>li:nth-child (6) {
-	padding-right: 0px;
-}
+
 
 .nav>li {
 	position: inherit;
@@ -1769,7 +1767,7 @@ margin-top: 20px;
 .title h2 {
 	font-size: 50px;
 	line-height: 55px;
-	color:#ffc221;
+	color:#b82023;
 	font-weight: 500;
 	text-transform: uppercase;
     margin-bottom: 27px;
@@ -1799,7 +1797,7 @@ margin-top: 20px;
 }
 
 .choose_bg {
-	background: #f9be20;
+	background: #b82023
 }
 
 
@@ -1905,7 +1903,7 @@ margin-top: 40px;
 .product .title h2 {
 	font-size: 50px;
 	line-height: 55px;
-	color:#ffc221;
+	color:#b82023;
 	font-weight: 500;
 	text-transform: uppercase;
     margin-bottom: 27px;
@@ -1948,8 +1946,13 @@ margin-top: 20px;
  }
  .product-bg .product-bg-white .product-box i img {width: 100%;}
  .product-bg .product-bg-white .product-box:hover {
- 	background: #fdc24f;
+ 	background: #b82023;
+	
  }
+ .product-bg .product-bg-white .product-box h2:hover {
+	
+   color: white;
+}
 
  .product-bg .product-bg-white .product-box  h3 {
  	color: #020000;
@@ -2016,7 +2019,7 @@ margin-top: 20px;
 	background: #0c0505;
 }
 
-.yellow_bg {background: #ffc221; 
+.yellow_bg {background: #b82023; 
 	padding: 40px 30px; 
 	margin-top: 100px;
 }
@@ -2033,7 +2036,7 @@ margin-top: 20px;
 
 	font-size: 22px; 
 	line-height: 28px; 
-	color: #010101;
+	color: #ffffff;
 }
 .yellow_bg .yellow-box a {
 	background: #000;
@@ -2141,27 +2144,26 @@ ul.lik li a:hover {
 }
 
 .copyright {
-	background-color: #ffc221;
+	background-color: #b82023;
 	padding: 20px 0px;
 	margin-top: 70px;
 }
 
 .copyright p {
-	color: #023023;
+	color: #ffffff;
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center;
 }
 
-.copyright a:hover {
-	color: #fff;
-}
+
 
 /** end footer section **/
 /*---------------------------------------------------------------------
     ener page css
 ---------------------------------------------------------------------*/
 .brand_color .titlepage h2 {
+	color: w;
 	font-weight: bold;
 	font-size: 40px !important;
 	text-transform: uppercase;
@@ -2169,7 +2171,7 @@ ul.lik li a:hover {
 
 
 .brand_color {
-     background-color: #ffc221;
+     background-color: #000000;
 }
 .brand_color .titlepage {
      margin-top: 70px;
@@ -2382,3 +2384,116 @@ text-align: center;
 	top: inherit;
 	bottom: 10px;
 }
+
+
+
+
+.contact{
+	padding: 50px;
+}
+.contact input{
+	height: 70px;
+}
+.contact input::placeholder {
+	font-size: 1.3em; 
+}
+.contact textarea::placeholder {
+	font-size: 1.3em; 
+}
+.contact #mobile::placeholder {
+	font-size: 1.3em; 
+}
+.contact .php-email-form {
+	width: 100%;
+   
+  }
+  .contact  input[type="tel"], textarea {
+	height: 45px;  
+	font-size: 1.3em; 
+}
+.contact input[type="text"] {
+	height: 70px;
+	font-size: 1.2em; 
+}
+
+.contact textarea {
+	height: 100px;  
+	font-size: 1.3em; 
+}
+  
+  .contact .php-email-form .form-group {
+	padding-bottom: 8px;
+  }
+  
+  .contact .php-email-form .error-message {
+	display: none;
+	color: #fff;
+	background: #ed3c0d;
+	text-align: left;
+	padding: 15px;
+	font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br+br {
+	margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+	display: none;
+	color: #eb0000;
+	background: #d2181e;
+	text-align: center;
+	padding: 15px;
+	font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+	display: none;
+	background: #fff;
+	text-align: center;
+	padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+	content: "";
+	display: inline-block;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	margin: 0 10px -6px 0;
+	border: 3px solid #18d26e;
+	border-top-color: #eee;
+	animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+	border-radius: 4px;
+	box-shadow: none;
+	font-size: 14px;
+  }
+  
+  .contact .php-email-form input[type=text],
+  .contact .php-email-form input[type=email] {
+	height: 44px;
+  }
+  
+  .contact .php-email-form textarea {
+	padding: 10px 12px;
+  }
+  
+  .contact .php-email-form button[type=submit] {
+	background: #e90808;
+	font-weight: bold;
+	border: 0;
+	padding: 10px 35px;
+	color: #ffffff;
+	transition: 0.4s;
+	border-radius: 50px;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+	color: #000000;
+	background: #ffc221;
+  }
+  
